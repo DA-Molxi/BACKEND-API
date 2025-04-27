@@ -1,0 +1,17 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index 'mongodb+srv://eduardo241590:kirby@hero.c90bn.mongodb.net/?retryWrites=true&w=majority&appName=hero'"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongodb": "^6.15.0",
+    "mongoose": "^8.14.0"
+  }
+}
